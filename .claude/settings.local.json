@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(venv/Scripts/python.exe -c ' *)",
+      "Bash(curl -s -o /dev/null -w \"Dashboard HTTP %{http_code}\\\\n\" http://localhost:8501)"
+    ]
+  }
+}

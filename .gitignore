@@ -1,6 +1,26 @@
-# gitignore template for LangChain products, e.g., LangGraph, LangSmith
-# website: https://www.langchain.com/
-# website: https://www.langchain.com/langgraph
-
 # LangGraph
 .langgraph_api/
+
+# Ambiente virtual
+venv/
+.venv/
+
+# Variaveis de ambiente (NUNCA commitar chaves)
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Dados coletados (gerados localmente)
+data/
+
+# Vector store
+chroma_db/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

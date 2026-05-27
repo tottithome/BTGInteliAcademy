@@ -1,0 +1,18 @@
+# Orquestracao do agente
+langchain-core
+langgraph
+langchain-groq
+
+# Coleta e tratamento de dados
+requests
+pandas
+
+# Saida estruturada
+pydantic
+
+# Variaveis de ambiente
+python-dotenv
+
+# Interface (etapas seguintes)
+streamlit
+plotly
